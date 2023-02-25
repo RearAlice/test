@@ -9,14 +9,7 @@ const AboutPage = () => (
     <div className="container  my-5">
 
       <div className="container">
-      <StaticImage
-            src="../images/title_about.png"
-            width={500}
-            quality={95}
-            formats={["AUTO", "WEBP"]}
-            alt="about"
-            className="img-fluid"
-          />
+      <h1 className="fw-light">About</h1>
         <p>
         「TikChoco Online」は、異世界で自由に生活できるサンドボックスオンラインゲームです。
         </p>
