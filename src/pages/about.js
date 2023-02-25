@@ -9,7 +9,7 @@ const AboutPage = () => (
   <Layout>
     <div className="container  my-5">
 
-      <div className="container">
+      <div className="container text-center">
       <StaticImage
             src="../images/title_about.png"
             width={500}
