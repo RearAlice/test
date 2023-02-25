@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import {Seo} from "../components/seo"
@@ -9,7 +10,14 @@ const AboutPage = () => (
     <div className="container  my-5">
 
       <div className="container">
-      <h1 className="fw-light">About</h1>
+      <StaticImage
+            src="../images/title_about.png"
+            width={500}
+            quality={95}
+            formats={["AUTO", "WEBP"]}
+            alt="About"
+            className="img-fluid"
+          />
         <p>
         「TikChoco Online」は、異世界で自由に生活できるサンドボックスオンラインゲームです。
         </p>
