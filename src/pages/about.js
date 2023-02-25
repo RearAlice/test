@@ -12,7 +12,7 @@ const AboutPage = () => (
       <div className="container text-center">
       <StaticImage
             src="../images/title_about.png"
-            width={500}
+            width={252}
             quality={95}
             formats={["AUTO", "WEBP"]}
             alt="About"
@@ -23,7 +23,7 @@ const AboutPage = () => (
         </p>
         <StaticImage
             src="../images/title_prologue.png"
-            width={500}
+            width={252}
             quality={95}
             formats={["AUTO", "WEBP"]}
             alt="prologue"
