@@ -48,7 +48,6 @@ module.exports = {
           jsFrontmatterEngine: false,
         },
       },
-    },
     `gatsby-plugin-gatsby-cloud`,
   ],
 }
